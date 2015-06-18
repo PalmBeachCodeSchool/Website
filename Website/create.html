@@ -28,22 +28,46 @@
         <form action="" method="">
           <div class="card wizard-card" id="wizard">
             <div class="wizard-header">
-              <h3> <b>CREATE</b> YOUR ACCOUNT <br>
+              <h3> <b>APPLY</b>NOW<br>
                 <small>This information will let us know more about you.</small> </h3>
             </div>
             <!--The Tab Names-->
             <ul>
+              <li><a href="#course" data-toggle="tab">Course</a></li>
               <li><a href="#basic" data-toggle="tab">Basic</a></li>
               <li><a href="#address" data-toggle="tab">Address</a></li>
-              <li><a href="#course" data-toggle="tab">Course</a></li>
               <li><a href="#you" data-toggle="tab">Yourself</a></li>
             </ul><!-- End Tab Names-->
             
             <div class="tab-content">
+                          <!-- Course Selection-->
+              <div class="tab-pane" id="course">
+                <h4 class="info-text"> What do you want to learn?</h4>
+                <div class="row">
+                  <div class="col-md-10 col-sm-offset-1" align="">
+                    <div class="col-md-4">
+                      <div class="choice" data-toggle="wizard-radio">
+                        <input type="radio" name="job" value="Code">
+                        <div class="icon"> <i class="fa fa-mobile"></i> </div>
+                        <h6>iOS Development</h6>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="choice"  data-toggle="wizard-radio">
+                        <input type="radio" name="job" value="Web Development">
+                        <div class="icon"> <i class="fa fa-laptop"></i> </div>
+                        <center>
+                          <h6>Web Development</h6>
+                        </center>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div><!--End Course Selection-->
             <!--Basic Info Tab-->
               <div class="tab-pane" id="basic">
                 <div class="row">
-                  <h4 class="info-text"> Sign Up</h4>
+                  <h4 class="info-text"> Basic Info</h4>
                   <div class="col-sm-8 col-sm-offset-1">
                     <div class="form-group">
                       <label for="exampleInputEmail1">Name</label>
@@ -535,30 +559,6 @@
                   </div>
                 </div>
               </div><!-- End Address Tab-->
-              <!-- Course Selection-->
-              <div class="tab-pane" id="course">
-                <h4 class="info-text"> What do you want to learn?</h4>
-                <div class="row">
-                  <div class="col-md-10 col-sm-offset-1" align="">
-                    <div class="col-md-4">
-                      <div class="choice" data-toggle="wizard-radio">
-                        <input type="radio" name="job" value="Code">
-                        <div class="icon"> <i class="fa fa-mobile"></i> </div>
-                        <h6>iOS Development</h6>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="choice"  data-toggle="wizard-radio">
-                        <input type="radio" name="job" value="Web Development">
-                        <div class="icon"> <i class="fa fa-laptop"></i> </div>
-                        <center>
-                          <h6>Web Development</h6>
-                        </center>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div><!--End Course Selection-->
               <!-- Yourself Tab Start-->
               <div class="tab-pane" id="you">
                 <h4 class="info-text"> Tell Us About Yourself</h4>
