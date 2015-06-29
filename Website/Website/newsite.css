@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.loginbk{
+    background: transparent url("beach.jpg") no-repeat fixed center center / cover;
+    padding-top: 25px;
+    width: 100%;
+    height: 100%;
+    
+
+
+.content-container{
+	position:relative;
+	text-align:center;
+	max-width:none;
+}
+
+.content-container{
+	width:80%;
+	padding:15px 0;
+	box-sizing:border-box
+	}
+	
+	
